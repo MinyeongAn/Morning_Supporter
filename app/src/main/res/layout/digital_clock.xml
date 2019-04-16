@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.example.testalram.DigitalClock xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/clock"
+    style="@style/clock"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="343dp"
+        android:layout_height="230dp"
+        android:orientation="vertical"
+        android:layout_weight="0.34">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/serchranklist1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="1"
+                            android:text="1위 : " />
+
+                        <TextView
+                            android:id="@+id/serchranklist2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="1"
+                            android:text="2위 : " />
+
+                        <TextView
+                            android:id="@+id/serchranklist3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="3위 : " />
+
+                        <TextView
+                            android:id="@+id/serchranklist4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="4위 : " />
+
+                        <TextView
+                            android:id="@+id/serchranklist5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="5위 : " />
+
+                        <TextView
+                            android:id="@+id/serchranklist6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="6위 : " />
+
+                        <TextView
+                            android:id="@+id/serchranklist7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="7위 : " />
+
+                        <TextView
+                            android:id="@+id/serchranklist8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="8위 : " />
+
+                        <TextView
+                            android:id="@+id/serchranklist9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="9위 : " />
+
+                        <TextView
+                            android:id="@+id/serchranklist10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:text="10위 : " />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/serchrankdata1"
+                            android:layout_width="match_parent"
+                            android:layout_height="23dp" />
+
+                        <TextView
+                            android:id="@+id/serchrankdata2"
+                            android:layout_width="match_parent"
+                            android:layout_height="23dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/serchrankdata3"
+                            android:layout_width="match_parent"
+                            android:layout_height="23dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/serchrankdata4"
+                            android:layout_width="match_parent"
+                            android:layout_height="23dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/serchrankdata5"
+                            android:layout_width="match_parent"
+                            android:layout_height="23dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/serchrankdata6"
+                            android:layout_width="match_parent"
+                            android:layout_height="23dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/serchrankdata7"
+                            android:layout_width="match_parent"
+                            android:layout_height="23dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/serchrankdata8"
+                            android:layout_width="match_parent"
+                            android:layout_height="23dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/serchrankdata9"
+                            android:layout_width="match_parent"
+                            android:layout_height="23dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/serchrankdata10"
+                            android:layout_width="match_parent"
+                            android:layout_height="23dp"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="178dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="178dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/timeDisplay"
+                        android:layout_width="40dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="0.38"
+                        android:gravity="right"
+                        android:textAlignment="gravity"
+                        android:textColor="@color/white"
+                        android:textSize="54sp" />
+
+                    <LinearLayout
+                        android:id="@+id/am_pm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="4dip"
+                        android:layout_marginRight="10dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/am"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_weight=".5"
+                            android:gravity="bottom"
+                            android:includeFontPadding="false"
+                            android:text="오전"
+                            android:textSize="28sp" />
+
+                        <TextView
+                            android:id="@+id/pm"
+                            android:layout_width="wrap_content"
+                            android:layout_height="fill_parent"
+                            android:layout_weight=".5"
+                            android:gravity="top"
+                            android:includeFontPadding="false"
+                            android:text="오후"
+                            android:textSize="28sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="25dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tc"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:textSize="50sp" />
+
+                            <TextView
+                                android:id="@+id/textView3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="℃"
+                                android:textSize="30sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="0dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tmin"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:textSize="25sp" />
+
+                            <TextView
+                                android:id="@+id/textView14"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="℃"
+                                android:textSize="10sp" />
+
+                            <TextView
+                                android:id="@+id/textView16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="/" />
+
+                            <TextView
+                                android:id="@+id/tmax"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:textSize="25sp" />
+
+                            <TextView
+                                android:id="@+id/textView12"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="℃"
+                                android:textSize="10sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/skycode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:src="@mipmap/sky_o01" />
+
+                        <TextView
+                            android:id="@+id/skyname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="top|center"
+                            android:textAlignment="gravity" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</com.example.testalram.DigitalClock>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Morning Supporter</string>
+    <string name="add_alarm">알람 추가</string>
+    <string name="delete_alarm">알람 삭제</string>
+    <string name="enable_alarm">알람 사용</string>
+    <string name="disable_alarm">알람 종료</string>
+    <string name="delete_alarm_confirm">알람이 삭제되었습니다</string>
+    <string name="show_clock">위젯 켜기</string>
+    <string name="hide_clock">위젯 끄기</string>
+    <string name="label">메모</string>
+    <string name="default_label">알람</string>
+    <string name="set_alarm">알람 추가</string>
+    <string name="alarm_vibrate">진동</string>
+    <string name="alarm_repeat">반복</string>
+    <string name="alert">벨소리</string>
+    <string name="time">알람 시간</string>
+    <string name="alarm_alert_dismiss_text">종료</string>
+
+    <string name="alarm_alert_alert_silenced">Alarm silenced after <xliff:g id="minutes">%d</xliff:g> minutes</string>
+
+    <string name="alarm_alert_snooze_text">스누즈</string>
+
+    <string name="alarm_alert_snooze_set"><xliff:g id="minutes">%d</xliff:g>분 후에 알람이 다시 울립니다.</string>
+
+    <skip />
+
+    <string-array name="alarm_set">
+        <item>지금부터 1분 이내에 알람이 울립니다.</item>
+        <item>지금부터 <xliff:g example="2 days" id="DAYS">%1$s</xliff:g> 후에 알람이 울립니다.</item>
+        <item>지금부터 <xliff:g example="2 hours" id="HOURS">%2$s</xliff:g> 후에 알람이 울립니다.</item>
+        <item>지금부터 <xliff:g example="2 days" id="DAYS">%1$s</xliff:g> <xliff:g example="2 hours" id="HOURS">%2$s</xliff:g> 후에 알람이 울립니다.</item>
+        <item>지금부터 <xliff:g example="2 minutes" id="MINUTES">%3$s</xliff:g> 후에 알람이 울립니다.</item>
+        <item>지금부터 <xliff:g example="2 days" id="DAYS">%1$s</xliff:g> <xliff:g example="2 minutes" id="MINUTES">%3$s</xliff:g> 후에 알람이 울립니다.</item>
+        <item>지금부터 <xliff:g example="2 hours" id="HOURS">%2$s</xliff:g> <xliff:g example="2 minutes" id="MINUTES">%3$s</xliff:g> 후에 알람이 울립니다.</item>
+        <item>지금부터 <xliff:g example="2 days" id="DAYS">%1$s</xliff:g>, <xliff:g example="2 hours" id="HOURS">%2$s</xliff:g>, <xliff:g example="2 minutes" id="MINUTES">%3$s</xliff:g> 후에 알람이 울립니다.</item>
+    </string-array>
+
+    <string name="day">"1일"</string>
+    <string name="days">"<xliff:g id="days">%s</xliff:g>일"</string>
+
+    <string name="hour">1시간</string>
+    <string name="hours"><xliff:g id="hours">%s</xliff:g>시간</string>
+
+    <string name="minute">"1분"</string>
+    <string name="minutes">"<xliff:g id="minutes">%s</xliff:g>분"</string>
+
+    <string name="every_day">매일</string>
+
+    <string name="never">안함</string>
+
+    <string name="day_concat">", "</string>
+
+    <string name="clock_instructions">화면에 나타낼 시계를 선택하세요.</string>
+
+    <string name="analog_gadget">아날로그 시계</string>
+
+    <string name="settings">설정</string>
+
+    <string name="alarm_in_silent_mode_title">음소거모드 알람</string>
+
+    <string name="alarm_in_silent_mode_summary">음소거 모드일때 알람울림 설정</string>
+
+    <string name="snooze_duration_title">스누즈 시간</string>
+
+    <string-array name="snooze_duration_entries">
+        <item>5분</item>
+        <item>10분</item>
+        <item>15분</item>
+        <item>20분</item>
+        <item>25분</item>
+        <item>30분</item>
+    </string-array>
+
+    <string-array name="snooze_duration_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="done">확인</string>
+    <string name="revert">취소</string>
+
+    <string name="alarm_volume_title">소리 크기</string>
+    <string name="alarm_volume_summary">알람의 벨소리 크기 설정</string>
+
+    <string name="silent_alarm_summary">Silent</string>
+    <string name="alarm_notify_text">클릭해서 알람을 스누즈하거나 종료하세요.</string>
+
+    <string name="alarm_notify_snooze_label"><xliff:g id="label">%s</xliff:g> (스누즈)</string>
+
+    <string name="alarm_notify_snooze_text">알람이 <xliff:g id="time">%s</xliff:g>에 울립니다. 클릭하면 취소됩니다.</string>
+
+    <string name="volume_button_setting_title">볼륨 버튼 동작</string>
+
+    <string name="volume_button_setting_summary">알람이 울리는 도중 볼륨 버튼을 눌렀을때 동작 설정</string>
+
+    <string-array name="volume_button_setting_entries">
+        <item>사용안함</item>
+        <item>스누즈</item>
+        <item>종료</item>
+    </string-array>
+
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>
+
+
